@@ -1,7 +1,6 @@
 import { createServerSupabaseClient } from '@/lib/supabase/server';
 import { notFound } from 'next/navigation';
 import { Metadata } from 'next';
-import PaperGrid from '@/components/exam/PaperGrid';
 import { JKAS_OPTIONAL_SUBJECTS } from '@/lib/constants';
 
 interface PageProps {
