@@ -2,7 +2,6 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 import { Navbar } from '@/components/layout/Navbar';
 import { Footer } from '@/components/layout/Footer';
-import { Breadcrumb } from '@/components/ui/Breadcrumb';
 import { JKAS_PRELIMS_SUBJECTS, JKAS_MAINS_PAPERS, JKAS_OPTIONAL_SUBJECTS } from '@/lib/constants';
 import { ArrowRight, BookOpen, FileText, GraduationCap, ChevronRight } from 'lucide-react';
 
