@@ -10,7 +10,7 @@ async function getDashboardData() {
   const supabase = createServerSupabaseClient();
 
   const [papersRes, publishedRes, recentRes] = await Promise.all([
-    supabase.from('question_papers').select('id, board, is_published, view_count, download_count'),
+    supabase.from('question_papers').select('id, board, is_published, view, download'),
     supabase.from('question_papers').select('id').eq('is_published', true),
     supabase.from('question_papers')
       .select('id, title, board, year, is_published, created_at')
