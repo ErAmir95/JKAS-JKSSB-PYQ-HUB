@@ -1,7 +1,6 @@
 import { createServerSupabaseClient } from '@/lib/supabase/server';
 import { notFound } from 'next/navigation';
 import { Metadata } from 'next';
-import Breadcrumb from '@/components/ui/Breadcrumb';
 import PaperGrid from '@/components/exam/PaperGrid';
 import { JKAS_OPTIONAL_SUBJECTS } from '@/lib/constants';
 
