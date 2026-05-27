@@ -1,6 +1,5 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
-import Breadcrumb from '@/components/ui/Breadcrumb';
 import { JKAS_OPTIONAL_SUBJECTS } from '@/lib/constants';
 
 export const metadata: Metadata = {
