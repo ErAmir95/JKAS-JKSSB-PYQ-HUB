@@ -19,8 +19,8 @@ async function getDashboardData() {
   ]);
 
   const papers = papersRes.data || [];
-  const totalViews = papers.reduce((sum, p) => sum + (p.view_count || 0), 0);
-  const totalDownloads = papers.reduce((sum, p) => sum + (p.download_count || 0), 0);
+  const totalViews = papers.reduce((sum, p) => sum + (p.veiws || 0), 0);
+  const totalDownloads = papers.reduce((sum, p) => sum + (p.downloads || 0), 0);
 
   return {
     total: papers.length,
