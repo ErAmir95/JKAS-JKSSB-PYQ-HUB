@@ -1,7 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import { JKAS_OPTIONAL_SUBJECTS } from '@/lib/constants';
-
 export const metadata: Metadata = {
   title: 'JKAS Optional Subjects PYQs | JK PYQ Hub',
   description: 'Previous year question papers for all JKAS Optional subjects. Download Paper 1 & Paper 2 PDFs year-wise.',
